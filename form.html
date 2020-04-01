@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #00ccff;
+	}
+
+	.forms
+	 {	position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+ 		height: 37em;
+		width: 30%;
+		background:  #eee;
+	}
+	#header
+    {
+        font-size: 36px;
+        color: orange;
+        margin: 25px 0px 0px 20px;
+	}
+	#desc
+	{
+		font-size: 17px;
+		color: 	 #4d4d4d;
+		margin: 5px 0px 0px 22px;
+	}
+	input[type=text],input[type=email],input[type=number],input[type=url],textarea
+	{
+		width: 90%;
+		padding: 12px;
+		margin: 20px 0px 0px 22px;
+		border:1px solid #ccc;
+		box-sizing: border-box;
+		resize: none;
+	}
+
+   input[type=submit]
+   {
+   
+   	position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%,-50%);
+    border:none;
+    background-color:#00ccff;
+    padding: 10px 164px;
+    color: white;
+    cursor: pointer; 
+   }
+
+
+</style>
+
+
+</head>
+
+
+<body>
+<div class="forms">
+   
+   <p id="header">Quick Contact</p>
+   <p id ="desc">Contact us today, and get reply within 24 hours!</p>
+    
+<form action="#">
+	<input type="text" placeholder="Your name" name="username" required><br>
+	<input type="email" placeholder="Your Email Address" name="username" required><br>
+	<input type="number" placeholder="Your Phone Number" name="username" required><br>
+	<input type="url" placeholder="Your Website starts with http://" name="username" required><br>
+     <textarea id="comment" name="subject" placeholder="Type your Message Here..." style="height: 120px;"></textarea>
+     <input type="submit" value="submit">
+
+</form>
+
+
+
+
+
+	
+</div>
+
+
+
+
+</body>
+</html>
